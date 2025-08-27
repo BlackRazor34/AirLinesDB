@@ -4,14 +4,14 @@ Bu proje, bir havayolu şirketi için **SQL tabanlı analitik raporlama** ve **g
 Proje kapsamında veritabanı şeması, örnek veri seti, SQL sorguları ve görsel raporlar bulunmaktadır.
 
 ## 📌 Proje Yapısı
-
+```
 Airline-Analytics-SQL/
 │
 ├── README.md
 ├── schema/
-│   └── AirlineDB.sql         
+│   └── AirlineDB.sql         # DB şeması (Departments, Employees, Flights, Customers, Tickets, Sales)
 ├── data/
-│   └── sample_inserts.sql    
+│   └── sample_inserts.sql    # 200 çalışan, 1000 müşteri, 3000 bilet, 5000 satış vb.
 ├── queries/
 │   ├── employee_performance.sql
 │   ├── customer_segmentation.sql
@@ -20,10 +20,10 @@ Airline-Analytics-SQL/
 │   ├── department_sales.sql
 │   ├── loyalty_analysis.sql
 │   ├── profit_loss.sql
-│   └── all_queries.sql        
+│   └── all_queries.sql        # Hepsinin birleşimi
 └── reports/
-    └── screenshots/           
-    
+    └── screenshots/           # ERD + Query çıktıları
+```
 
 
 ---
@@ -39,22 +39,22 @@ Airline-Analytics-SQL/
 ## 📊 Görseller
 
 ### 1️⃣ ERD Şeması
-![ERD Diagram](reports/screenshots/erd.png)
+![ERD Diagram](reports/pic_schema.png)
 
 ### 2️⃣ Satış Performansı (En çok satış yapan çalışanlar)
-![Sales Performance](reports/screenshots/satis_performansi.png)
+![Sales Performance](reports/pic1.png)
 
 ### 3️⃣ En Çok Getirisi Olan Uçuşlar
-![Top Revenue Flights](reports/screenshots/en_cok_getirisi_olan_ucuslar.png)
+![Top Revenue Flights](reports/pic2.png)
 
 ### 4️⃣ Zamanında Kalkış Oranı
-![On-time Performance](reports/screenshots/zamaninda_kalkis_orani.png)
+![On-time Performance](reports/pic3.png)
 
 ### 5️⃣ Departman Bazlı Satış Oranı
-![Department Sales](reports/screenshots/departman_bazli_satis.png)
+![Department Sales](reports/pic4.png)
 
 ### 6️⃣ Kar/Zarar Analizi
-![Profit Loss](reports/screenshots/kar_zarar.png)
+![Profit Loss](reports/pic5.png)
 
 ---
 
